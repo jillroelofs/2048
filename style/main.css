@@ -48,7 +48,11 @@ h1.title {
     opacity: 0; } }
 .scores-container {
   float: right;
-  text-align: right; }
+  text-align: right;
+  position: absolute;
+  right: 350px;
+}
+
 
 .score-container, .best-container {
   position: relative;
@@ -80,7 +84,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 210, 101, 0.1);
+    color: #5E2D79;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -492,7 +496,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #5E2D79;;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -541,7 +545,9 @@ hr {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    margin-top: 2px; }
+    margin-top: 2px;
+    color: #5E2D79;
+  }
 
   .game-container {
     margin-top: 17px;
